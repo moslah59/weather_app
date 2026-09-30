@@ -1,17 +1,109 @@
-# weather_app
+# 🌤️ Weather App
 
-A new Flutter project.
+A modern and responsive weather application built with Flutter and Dart.
 
-## Getting Started
+This application provides real-time weather information, location search, GPS-based weather, hourly forecasts, 10-day forecasts, rain probability, and sunrise & sunset information.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- 🔍 Search weather by city or place
+- 📍 Get weather using current GPS location
+- 🌎 Location search suggestions
+- 🌡️ Current temperature
+- 💧 Humidity information
+- 💨 Wind speed
+- ☀️ Dynamic weather icons
+- 🌦️ Weather condition description
+- 🎨 Dynamic weather-based background
+- 🕐 24-hour weather forecast
+- 📅 10-day weather forecast
+- 🌧️ Rain probability
+- 🌅 Sunrise & sunset information
+- 🔄 Pull-to-refresh
+- 🌙 Day and night weather support
+- 📱 Responsive user interface
+- 🎨 Custom 3D weather app icon
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📱 Screenshots
+
+<p align="center">
+  <img src="screenshots/1.png" width="30%" />
+  <img src="screenshots/2.png" width="30%" />
+  <img src="screenshots/3.png" width="30%" />
+</p>
+
+---
+
+## 🛠️ Technologies Used
+
+- Flutter
+- Dart
+- REST API
+- HTTP
+- Geolocator
+- Geocoding
+- Git
+- GitHub
+
+---
+
+## 🌐 APIs
+
+### ☁️ Weather API
+
+This project uses the **Open-Meteo API** for weather data.
+
+The API provides:
+
+- Current weather
+- Temperature
+- Humidity
+- Wind speed
+- Weather conditions
+- Hourly forecast
+- Daily forecast
+- Rain probability
+- Sunrise
+- Sunset
+
+### 📍 Location Search API
+
+The project uses the **Photon API** for location search and suggestions.
+
+Photon uses OpenStreetMap data for geographical information.
+
+---
+
+## 📂 Project Structure
+
+```text
+lib/
+├── main.dart
+│
+├── screens/
+│   └── weather_home_page.dart
+│
+├── services/
+│   ├── location_service.dart
+│   ├── weather_service.dart
+│   └── gps_service.dart
+│
+└── widgets/
+    ├── search_box.dart
+    ├── suggestion_list.dart
+    ├── weather_card.dart
+    ├── hourly_forecast.dart
+    ├── daily_forecast.dart
+    └── sun_info.dart
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/moslah59/weather_app.git
